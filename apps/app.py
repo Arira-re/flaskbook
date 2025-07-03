@@ -6,6 +6,8 @@ from flask_wtf import CSRFProtect
 # SQLAlchemyをインスタンス化する
 db = SQLAlchemy()
 csrf = CSRFProtect()
+
+
 def create_app():
     # Flaskインスタンス作成
     app = Flask(__name__)
