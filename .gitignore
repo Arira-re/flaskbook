@@ -29,3 +29,7 @@ dist/
 # Flaskbook固有
 apps/minimalapp/__pycache__/
 venv/
+
+migrations/
+*.sqlite
+*.db
