@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 仮想環境
+.env
+.venv/
+env/
+venv/
+
+# エディタ
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ビルド
+build/
+dist/
+*.egg-info/
+
+# ログ
+*.log
+
+# Flaskbook固有
+apps/minimalapp/__pycache__/
+venv/
