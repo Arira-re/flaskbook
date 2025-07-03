@@ -5,4 +5,4 @@ def create_app():
 
     from apps.crud import views as crud_views
     app.register_blueprint(crud_views.crud, url_prefix='/crud')
-    
+    return app
